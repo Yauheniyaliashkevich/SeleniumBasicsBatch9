@@ -21,6 +21,7 @@ Build functions (methods) to open and close browsers
 
     public static String url = "https://the-internet.herokuapp.com/dynamic_controls";
 
+
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver","drivers/chromedriver");
         WebDriver driver = new ChromeDriver();
